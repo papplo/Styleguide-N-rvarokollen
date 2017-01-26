@@ -1,0 +1,350 @@
+/*=====================================
+=            Suggest Styles           =
+=====================================*/
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center; }
+
+.page-template-narvarokollen-template #full-width-page-wrapper {
+  padding-bottom: 0 !important;
+  background-image: url(../img/connectivity-bg.png);
+  background-size: contain; }
+
+.page-template-narvarokollen-template.scanner-page {
+  background-image: none !important; }
+
+.SearchBox .CompanyInfo {
+  padding-top: 20px;
+  height: 0;
+  transform: scale(0); }
+
+.SearchBox .form {
+  position: relative; }
+  .SearchBox .form input[type="text"] {
+    display: inline;
+    width: 100%;
+    background: #fff;
+    padding: 0;
+    line-height: 24px;
+    border: none;
+    color: #242424;
+    border-radius: 5px;
+    outline: none;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: top;
+    border: 2px solid #8a8a8a;
+    box-shadow: none;
+    /*  ios gradiet fix */
+    -webkit-appearance: none; }
+
+.SearchBox .clearButton, .SearchBox .helpButton {
+  display: inline;
+  position: absolute;
+  color: #ca1321;
+  right: 90px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  z-index: 10; }
+  .SearchBox .clearButton:hover, .SearchBox .helpButton:hover {
+    cursor: pointer; }
+
+.SearchBox .helpButton {
+  right: 55px;
+  color: #6b6b6b;
+  margin-bottom: -1px; }
+
+.SearchBox .form-tooltip {
+  margin: 0;
+  font-size: 85%;
+  color: #242d32;
+  font-weight: 600; }
+
+.Suggest {
+  border: 1px solid #8a8a8a;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: 11; }
+  .Suggest li {
+    background-color: #ffffff;
+    padding: 0.5em 1.1em;
+    margin: 0;
+    border-bottom: 1px solid #8a8a8a; }
+    .Suggest li.selected {
+      background-color: #8a8a8a; }
+
+@keyframes in {
+  from {
+    height: 0;
+    transform: scale(0); }
+  to {
+    height: auto;
+    transform: scale(1); } }
+
+@keyframes inSug {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.CompanyInfo {
+  animation: in .3s both; }
+
+.Suggest {
+  animation: inSug .8s both; }
+
+.form-group label {
+  display: none; }
+
+.inputError, textarea.form-control.inputError {
+  outline: none;
+  border: 1px solid #ef6706 !important; }
+
+.error-message {
+  position: absolute;
+  top: 7px;
+  right: 35px;
+  font-size: 80%;
+  line-height: 23px;
+  font-weight: 300;
+  color: #ef6706;
+  z-index: 10; }
+
+/*===============================
+=       Scan Results Table      =
+===============================*/
+figure figcaption.scanResultPercent {
+  position: absolute;
+  top: 43%;
+  width: 100%;
+  left: 0;
+  display: block;
+  font-size: 2.4em;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  font-family: 'enironetto', 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center; }
+  figure figcaption.scanResultPercent.puckContact {
+    top: 33,5%;
+    left: 0;
+    font-size: 2em; }
+
+.diagnostic-content-sidebar aside + aside {
+  margin-top: 1.5em; }
+
+#diagnostic-content-results {
+  background-color: #fff;
+  margin-bottom: 2em; }
+  #diagnostic-content-results .table td, #diagnostic-content-results .table th {
+    padding: .75rem;
+    vertical-align: center !important; }
+  #diagnostic-content-results #diagnostic-listings-report {
+    text-align: left;
+    border: 1px solid #cfcfcf; }
+    #diagnostic-content-results #diagnostic-listings-report .listings-report-head {
+      background: #e6e6e6; }
+    #diagnostic-content-results #diagnostic-listings-report .listings-report-head th {
+      border-left: 1px solid #cfcfcf; }
+    #diagnostic-content-results #diagnostic-listings-report a {
+      color: #00a3e3;
+      text-decoration: none; }
+    #diagnostic-content-results #diagnostic-listings-report th {
+      height: 45px;
+      text-align: center; }
+    #diagnostic-content-results #diagnostic-listings-report tr {
+      border-bottom: 1px solid #e5e5e5; }
+    #diagnostic-content-results #diagnostic-listings-report td {
+      padding: 10px; }
+    #diagnostic-content-results #diagnostic-listings-report .icon {
+      height: 31px;
+      padding-top: 6px;
+      padding-left: 45px; }
+    #diagnostic-content-results #diagnostic-listings-report .print-icon {
+      width: 45px;
+      float: left; }
+    #diagnostic-content-results #diagnostic-listings-report .partner-name {
+      float: left;
+      padding-top: 6px;
+      padding-left: 5px; }
+    #diagnostic-content-results #diagnostic-listings-report #media {
+      width: 20%; }
+    #diagnostic-content-results #diagnostic-listings-report #namn {
+      width: 20%;
+      padding-left: 10px; }
+    #diagnostic-content-results #diagnostic-listings-report #adress {
+      width: 20%; }
+    #diagnostic-content-results #diagnostic-listings-report #telefon {
+      width: 20%; }
+    #diagnostic-content-results #diagnostic-listings-report #status {
+      width: 20%; }
+    #diagnostic-content-results #diagnostic-listings-report .col-border {
+      border-left: 1px solid #e5e5e5; }
+    #diagnostic-content-results #diagnostic-listings-report .diagnostic-result {
+      height: 15px;
+      width: 15px;
+      margin: 0 auto; }
+    #diagnostic-content-results #diagnostic-listings-report .diagnostic-result.question {
+      height: 18px;
+      width: 18px; }
+    #diagnostic-content-results #diagnostic-listings-report .diagnostic-status {
+      height: 32px;
+      font-size: 13px;
+      color: #66b70e;
+      font-weight: normal;
+      line-height: 32px;
+      margin-left: 6px;
+      position: relative; }
+    #diagnostic-content-results #diagnostic-listings-report .diagnostic-status .listing-status span {
+      position: absolute;
+      left: 43px;
+      top: 1px;
+      width: 85px;
+      display: inline-table; }
+    #diagnostic-content-results #diagnostic-listings-report .diagnostic-status.status-listed {
+      color: #6daf00; }
+    #diagnostic-content-results #diagnostic-listings-report .diagnostic-status.status-alert {
+      color: #ef6706; }
+    #diagnostic-content-results #diagnostic-listings-report .diagnostic-status.status-notfound {
+      color: #ca1321; }
+    #diagnostic-content-results #diagnostic-listings-report .match .verified .fa {
+      display: block;
+      color: #4FA534; }
+    #diagnostic-content-results #diagnostic-listings-report .verified .bock:before {
+      font-family: FontAwesome;
+      content: "\f00c";
+      color: #4FA534;
+      opacity: .4;
+      margin-right: 0.25em;
+      font-style: normal; }
+    #diagnostic-content-results #diagnostic-listings-report .uncertain {
+      color: #F35A15;
+      opacity: .95; }
+    #diagnostic-content-results #diagnostic-listings-report .temporary-problem {
+      font-size: 12px;
+      color: #666;
+      font-weight: normal;
+      line-height: normal; }
+    #diagnostic-content-results #diagnostic-listings-report .temporary-problem .temporary-problem-title {
+      font-size: 14px;
+      color: #666;
+      font-weight: normal;
+      line-height: normal; }
+    #diagnostic-content-results #diagnostic-listings-report .powerlistings .print-icon {
+      width: 40px;
+      margin-left: 5px; }
+    #diagnostic-content-results #diagnostic-listings-report .powerlistings .print-icon img {
+      width: 26px; }
+    #diagnostic-content-results #diagnostic-listings-report .powerlistings p {
+      padding: 5px;
+      margin-bottom: 0; }
+    #diagnostic-content-results #diagnostic-listings-report .notmatch, #diagnostic-content-results #diagnostic-listings-report .nap-notfound {
+      color: #c00; }
+    #diagnostic-content-results #diagnostic-listings-report .yell-notmatch {
+      color: #fa6c04; }
+    #diagnostic-content-results #diagnostic-listings-report .partner-id-545 {
+      font-size: 12px; }
+
+#diagnostic-listings-report tr.match td:first-child, #diagnostic-listings-report tr.no_match td:first-child {
+  padding-left: 3em !important; }
+
+#diagnostic-listings-report td {
+  background-position: 2% center;
+  background-repeat: no-repeat; }
+
+#diagnostic-listings-report .partnerENIRO {
+  background-image: url("../img/partner-logo-eniro.png"); }
+
+#diagnostic-listings-report .partnerAROUNDME {
+  background-image: url("../img/partner-logo-aroundme.png"); }
+
+#diagnostic-listings-report .partnerBROWNBOOKNET {
+  background-image: url("../img/partner-logo-brownbook.png"); }
+
+#diagnostic-listings-report .partnerCYLEX {
+  background-image: url("../img/partner-logo-cylex.png"); }
+
+#diagnostic-listings-report .partnerFACEBOOK {
+  background-image: url("../img/partner-logo-facebook.png"); }
+
+#diagnostic-listings-report .partnerFOURSQUARE {
+  background-image: url("../img/partner-logo-foursquare.png"); }
+
+#diagnostic-listings-report .partnerGOOGLEPLACES {
+  background-image: url("../img/partner-logo-googlereviews.png"); }
+
+#diagnostic-listings-report .partnerINFOBEL {
+  background-image: url("../img/partner-logo-infobel.png"); }
+
+#diagnostic-listings-report .partnerNAVMII {
+  background-image: url("../img/partner-logo-navmii.png"); }
+
+#diagnostic-listings-report .partnerOPENDI {
+  background-image: url("../img/partner-logo-opendise.png"); }
+
+#diagnostic-listings-report .partnerTORGET {
+  background-image: url("../img/partner-logo-torget.png"); }
+
+#diagnostic-listings-report .partnerTUPALO {
+  background-image: url("../img/partner-logo-tupalo.png"); }
+
+#diagnostic-listings-report .partnerWHERETO {
+  background-image: url("../img/partner-logo-whereto.png"); }
+
+#diagnostic-listings-report .partnerYELP {
+  background-image: url("../img/partner-logo-yelp.png"); }
+
+/*===============================
+=        Loading Spinner        =
+===============================*/
+#alert-order, #alert-contact {
+  display: none; }
+
+.spinner {
+  margin: 20px auto;
+  width: 70px;
+  text-align: center; }
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both; }
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s; }
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s; }
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0); }
+  40% {
+    -webkit-transform: scale(1); } }
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }

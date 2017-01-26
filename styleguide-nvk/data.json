@@ -1,0 +1,258 @@
+{
+    "project_logo": null,
+    "project_favicon": "./favicon.png",
+    "copyright_start_year": "2016",
+    "client_name": "Eniro AB",
+    "client_url": null,
+    "creators": [
+        {
+            "name": "Pablo Anttila",
+            "url": "http://www.clickyeah.cl"
+        }
+    ],
+    "theme": {
+        "border_color": "#EAEAEA",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#FFD716",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#2F373F",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": 1160,
+        "titles": {
+            "library_title": "Närvarokollen Styleguide",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "app/css/styles-nvk-min.css",
+            "app/css/eniro-fonts-min.css",
+            "app/css/suggest-min.css"
+        ],
+        "js": [
+            "app/js/jquery.min.js",
+            "app/js/bundle.js",
+            "app/js/form-validate.min.js",
+            "app/js/main.min.js"
+        ]
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Styleguide",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            },
+            {
+                "name": "preview",
+                "title": "Preview",
+                "file": "./pages/preview.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "grid",
+            "title": "Grid",
+            "components": [
+                {
+                    "group": "grid",
+                    "name": "grid-responsive",
+                    "title": "Main Grid Bootstrap",
+                    "options": {
+                        "sample_dark_background": null
+                    }
+                },
+                {
+                    "group": "grid",
+                    "name": "grid-tablet",
+                    "title": "Grid Tablet",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "grid",
+                    "name": "grid-mobile",
+                    "title": "Grid Mobile",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "color",
+            "title": "Component Colors",
+            "components": [
+                {
+                    "group": "color",
+                    "name": "palette",
+                    "title": "Color palette combinations",
+                    "type": "colors",
+                    "colors": [
+                        "#FFD716, #f6f6f6",
+                        "#2f373f,#242d32",
+                        "#8a8a8a, #eaeaea",
+                        " #6daf00, #0088e3",
+                        "#CA1321, #EF6706"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "typography",
+            "title": "Typography",
+            "components": [
+                {
+                    "group": "typography",
+                    "name": "headings",
+                    "title": "Headings",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "body-copy",
+                    "title": "Body Copy",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "icons",
+                    "title": "Icons"
+                }
+            ]
+        },
+        {
+            "name": "links",
+            "title": "Links",
+            "components": [
+                {
+                    "group": "links",
+                    "name": "buttons",
+                    "title": "buttons",
+                    "width": "half"
+                },
+                {
+                    "group": "links",
+                    "name": "tabs",
+                    "title": "Tabks as Buttons",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Forms",
+            "title": "Forms",
+            "components": [
+                {
+                    "group": "Forms",
+                    "name": "input-fields",
+                    "title": "Input fields"
+                }
+            ]
+        },
+        {
+            "name": "boxing",
+            "title": "Box Elements",
+            "components": [
+                {
+                    "group": "boxing",
+                    "name": "cards",
+                    "title": "Cards"
+                },
+                {
+                    "group": "boxing",
+                    "name": "dimension",
+                    "title": "Dimension Cards"
+                }
+            ]
+        },
+        {
+            "name": "progress",
+            "title": "Progress",
+            "components": [
+                {
+                    "group": "progress",
+                    "name": "progress",
+                    "title": "Progress Meter"
+                }
+            ]
+        },
+        {
+            "name": "sections",
+            "title": "Html Sections",
+            "components": [
+                {
+                    "group": "sections",
+                    "name": "blocks",
+                    "title": "Element blocks"
+                },
+                {
+                    "group": "sections",
+                    "name": "layouts",
+                    "title": "Layouts"
+                }
+            ]
+        },
+        {
+            "name": "tables",
+            "title": "Html Tables",
+            "components": [
+                {
+                    "group": "tables",
+                    "name": "products",
+                    "title": "Product Table"
+                },
+                {
+                    "group": "tables",
+                    "name": "Scan-results",
+                    "title": "Scanner Results"
+                }
+            ]
+        },
+        {
+            "name": "global",
+            "title": "Global elements",
+            "components": [
+                {
+                    "group": "global",
+                    "name": "navigation",
+                    "title": "Navigation",
+                    "options": {
+                        "sample_dark_background": true
+                    }
+                },
+                {
+                    "group": "global",
+                    "name": "wrappers",
+                    "title": "Wrapping elements",
+                    "width": "half"
+                },
+                {
+                    "group": "global",
+                    "name": "helpers",
+                    "title": "Helper elements",
+                    "width": "half"
+                }
+            ]
+        }
+    ],
+    "version": "1.9.3"
+}
