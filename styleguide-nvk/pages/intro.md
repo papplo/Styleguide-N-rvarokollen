@@ -1,6 +1,5 @@
-<h2> Närvarokollen</h2>
-Med Eniro Designmanual hånden er du i stand  l at designe løsninger  l Eniros mange gra ske  ader. Her kan du slå op og  nde grundelementerne  l at skabe en konsistent brugeroplevelse på tværs af Eniros pla orme og sam dig  nde inspira on  l, hvordan du kan sammensæ e et varieret udtryk.
-Designet afspejler vores branding strategi. Derfor er det vig gt, at den visuelle iden-  tet er enkel og klar, og at der er sammenhæng og konsekvens i den måde, vi bruger vores logo og gra ske elementer på.
+## Närvarokollen - What is it?
+Med hjälp av Eniro Närvarokoll är det nu möjligt att få kontroll över företags närvaro på nätet. Snabbt och enkelt får du koll på vilken information som visas om just ditt företag på de största och viktigaste tjänsterna på nätet. Närvarokollen ger även användarna möjligheten att enkelt uppdatera sin företagsinformation, öppettider, adresser och aktuella erbjudanden från ett och samma ställe, när de vill.
 
 
 ![Image Splash Närvarokollen](pages/Netto-web.jpg)

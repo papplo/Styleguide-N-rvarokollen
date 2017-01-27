@@ -145,15 +145,6 @@
                     "name": "buttons",
                     "title": "buttons",
                     "width": "half"
-                },
-                {
-                    "group": "links",
-                    "name": "tabs",
-                    "title": "Tabks as Buttons",
-                    "width": "half",
-                    "options": {
-                        "sample_dark_background": true
-                    }
                 }
             ]
         },
@@ -164,7 +155,14 @@
                 {
                     "group": "Forms",
                     "name": "input-fields",
-                    "title": "Input fields"
+                    "title": "Input fields",
+                    "width": "half"
+                },
+                {
+                    "group": "Forms",
+                    "name": "suggest-component",
+                    "title": "Suggest Component",
+                    "width": "half"
                 }
             ]
         },
@@ -189,9 +187,12 @@
             "title": "Progress",
             "components": [
                 {
-                    "group": "progress",
                     "name": "progress",
-                    "title": "Progress Meter"
+                    "title": "Progress Meter",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "progress"
                 }
             ]
         },
@@ -240,10 +241,20 @@
                     }
                 },
                 {
-                    "group": "global",
                     "name": "wrappers",
                     "title": "Wrapping elements",
-                    "width": "half"
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "global"
+                },
+                {
+                    "group": "global",
+                    "name": "footer",
+                    "title": "Footer",
+                    "options": {
+                        "sample_dark_background": true
+                    }
                 },
                 {
                     "group": "global",

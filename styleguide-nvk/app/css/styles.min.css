@@ -144,7 +144,12 @@
   /* Heading type sizes */
   .ndpl-library__title {
     /*font-size: 36px;
-        line-height: 36px;*/ }
+        line-height: 36px;*/
+    color: #8A8A8A !important;
+    border-bottom: 1px solid #E0E6ED;
+    padding-bottom: 1.5em;
+    margin-bottom: 3em;
+    margin-top: 3em; }
   .ndpl-component__title {
     /*font-size: 21px;
         line-height: 32px;*/ }
@@ -1082,8 +1087,8 @@
   .ndpl-page pre code,
   .ndpl-component__description pre code,
   .ndpl-component__code .ndpl-code {
-    font-size: 15px;
-    line-height: 21px;
+    font-size: 12px;
+    line-height: 15px;
     padding: 36px; }
   .ndpl-page pre code,
   .ndpl-component__description pre code {

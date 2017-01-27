@@ -11,7 +11,7 @@
 
 .page-template-narvarokollen-template #full-width-page-wrapper {
   padding-bottom: 0 !important;
-  background-image: url(../img/connectivity-bg.png);
+  background-image: url(./../img/connectivity-bg.png);
   background-size: contain; }
 
 .page-template-narvarokollen-template.scanner-page {
@@ -266,46 +266,46 @@ figure figcaption.scanResultPercent {
   background-repeat: no-repeat; }
 
 #diagnostic-listings-report .partnerENIRO {
-  background-image: url("../img/partner-logo-eniro.png"); }
+  background-image: url("./../img/partner-logo-eniro.png"); }
 
 #diagnostic-listings-report .partnerAROUNDME {
-  background-image: url("../img/partner-logo-aroundme.png"); }
+  background-image: url("./../img/partner-logo-aroundme.png"); }
 
 #diagnostic-listings-report .partnerBROWNBOOKNET {
-  background-image: url("../img/partner-logo-brownbook.png"); }
+  background-image: url("./../img/partner-logo-brownbook.png"); }
 
 #diagnostic-listings-report .partnerCYLEX {
-  background-image: url("../img/partner-logo-cylex.png"); }
+  background-image: url("./../img/partner-logo-cylex.png"); }
 
 #diagnostic-listings-report .partnerFACEBOOK {
-  background-image: url("../img/partner-logo-facebook.png"); }
+  background-image: url("./../img/partner-logo-facebook.png"); }
 
 #diagnostic-listings-report .partnerFOURSQUARE {
-  background-image: url("../img/partner-logo-foursquare.png"); }
+  background-image: url("./../img/partner-logo-foursquare.png"); }
 
 #diagnostic-listings-report .partnerGOOGLEPLACES {
-  background-image: url("../img/partner-logo-googlereviews.png"); }
+  background-image: url("./../img/partner-logo-googlereviews.png"); }
 
 #diagnostic-listings-report .partnerINFOBEL {
-  background-image: url("../img/partner-logo-infobel.png"); }
+  background-image: url("./../img/partner-logo-infobel.png"); }
 
 #diagnostic-listings-report .partnerNAVMII {
-  background-image: url("../img/partner-logo-navmii.png"); }
+  background-image: url("./../img/partner-logo-navmii.png"); }
 
 #diagnostic-listings-report .partnerOPENDI {
-  background-image: url("../img/partner-logo-opendise.png"); }
+  background-image: url("./../img/partner-logo-opendise.png"); }
 
 #diagnostic-listings-report .partnerTORGET {
-  background-image: url("../img/partner-logo-torget.png"); }
+  background-image: url("./../img/partner-logo-torget.png"); }
 
 #diagnostic-listings-report .partnerTUPALO {
-  background-image: url("../img/partner-logo-tupalo.png"); }
+  background-image: url("./../img/partner-logo-tupalo.png"); }
 
 #diagnostic-listings-report .partnerWHERETO {
-  background-image: url("../img/partner-logo-whereto.png"); }
+  background-image: url("./../img/partner-logo-whereto.png"); }
 
 #diagnostic-listings-report .partnerYELP {
-  background-image: url("../img/partner-logo-yelp.png"); }
+  background-image: url("./../img/partner-logo-yelp.png"); }
 
 /*===============================
 =        Loading Spinner        =

@@ -1,0 +1,56 @@
+<div class="col-sm-12 card card-accent py-3 px-3">
+          <div class="hero-unit">
+            <h4>Scanna din digitala närvaro på 10 sekunder!</h4>
+
+            <div class="contact-info">
+              <div id="alert-contact">
+                <div class="spinner">
+                  <div class="bounce1"></div>
+                  <div class="bounce2"></div>
+                  <div class="bounce3"></div>
+                </div>
+              </div>
+
+              <form id="contact-form" autocomplete="nope" action="http://localhost:8888/webbshop-eniro/wp-admin/admin-post.php" class="myform" method="post" novalidate="">
+                <input style="display: none;" type="submit">
+
+                <fieldset>
+                  <input name="country" type="hidden" value="SE">
+                  <input name="suggest" type="hidden" value="TRUE">
+                  <input name="inbound" type="hidden" value="Direct">
+                  <input type="hidden" name="action" value="scan_form">
+                  <div id="SearchBox"><div data-reactroot="" class="form-group SearchBox"><label class="control-label">Företagsnamn</label><input type="text" class="input-lg form-control" placeholder="Sök på ditt företag..."><span class="helpButton"><i class="e-icon-navigatedown" aria-hidden="true"></i></span></div></div>
+                  <div class="row clearfix">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                      <div class="form-group">
+                        <label class="control-label">Namn</label>
+                        <div class="controls">
+                          <input name="contactName" placeholder="Ditt Namn" class="form-control requiredField" type="text" data-error-empty="Skriv ditt namn">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                      <div class="form-group">
+                        <label class="control-label" for="contact-mail">E-post</label>
+                        <div class=" controls">
+                          <input name="email" placeholder="Din e-post" class="form-control requiredField" type="email" data-error-invalid="Felaktig e-postadress" data-error-empty="Din E-post">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row clearfix">
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-sm-offset-1 col-md-offset-1">
+                      <div class="form-group">
+                        <p><button name="submit" type="submit" style="display: block;" class="btn btn-primary btn-lg p-1 px-3 mt-2 mx-auto" data-error-message="Vänligen, försök igen" data-sending-message="Sänder..." data-ok-message="Scannar...">Kostnadsfri närvarokoll </button></p>
+                        <input type="hidden" name="submitted" id="submitted3" value="true">
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+
+              </form>
+            </div> <!-- .contactinfo -->
+
+
+          </div>
+        </div>
