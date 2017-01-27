@@ -27,6 +27,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/app\/assets\/connectivity-bg0.png": {
+		"ft": 32768,
+		"iS": 73136,
+		"oA": 0,
+		"oAP": "\/app\/assets\/connectivity-bg0.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/diagnostic-status-alert.png": {
+		"ft": 32768,
+		"iS": 2314,
+		"oA": 0,
+		"oAP": "\/app\/assets\/diagnostic-status-alert.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/diagnostic-status-notfound.png": {
+		"ft": 32768,
+		"iS": 2949,
+		"oA": 0,
+		"oAP": "\/app\/assets\/diagnostic-status-notfound.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/app\/assets\/fonts\/eniro-icon.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -233,6 +257,118 @@
 		"oAP": "\/app\/assets\/narvarokollen-resp-style-guide-master.pdf.sb-ba043e40-U73glm",
 		"oF": 0
 		},
+	"\/app\/assets\/partner-logo-aroundme.png": {
+		"ft": 32768,
+		"iS": 3037,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-aroundme.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-brownbook.png": {
+		"ft": 32768,
+		"iS": 2569,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-brownbook.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-cylex.png": {
+		"ft": 32768,
+		"iS": 3798,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-cylex.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-eniro.png": {
+		"ft": 32768,
+		"iS": 2981,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-eniro.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-facebook.png": {
+		"ft": 32768,
+		"iS": 3052,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-facebook.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-foursquare.png": {
+		"ft": 32768,
+		"iS": 3225,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-foursquare.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-googlereviews.png": {
+		"ft": 32768,
+		"iS": 2759,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-googlereviews.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-infobel.png": {
+		"ft": 32768,
+		"iS": 2774,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-infobel.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-navmii.png": {
+		"ft": 32768,
+		"iS": 3789,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-navmii.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-opendise.png": {
+		"ft": 32768,
+		"iS": 3632,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-opendise.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-torget.png": {
+		"ft": 32768,
+		"iS": 1610,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-torget.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-tupalo.png": {
+		"ft": 32768,
+		"iS": 3310,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-tupalo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-whereto.png": {
+		"ft": 32768,
+		"iS": 3740,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-whereto.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/partner-logo-yelp.png": {
+		"ft": 32768,
+		"iS": 3277,
+		"oA": 0,
+		"oAP": "\/app\/assets\/partner-logo-yelp.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/app\/assets\/Process-Bar.png": {
 		"ft": 32768,
 		"iS": 17611,
@@ -262,6 +398,14 @@
 		"iS": 124794,
 		"oA": 0,
 		"oAP": "\/app\/assets\/scan-results-puck.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/app\/assets\/scan-results-puck0.png": {
+		"ft": 32768,
+		"iS": 124794,
+		"oA": 0,
+		"oAP": "\/app\/assets\/scan-results-puck0.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -661,36 +805,6 @@
 		"oAP": "\/components\/global\/footer\/markup.html",
 		"oF": 0
 		},
-	"\/components\/global\/helpers\/description.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/components\/global\/helpers\/description.html",
-		"oF": 0
-		},
-	"\/components\/global\/helpers\/description.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/components\/global\/helpers\/description.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/components\/global\/helpers\/markup.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/components\/global\/helpers\/markup.html",
-		"oF": 0
-		},
 	"\/components\/global\/navigation\/description.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1009,30 +1123,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/components\/sections\/layouts\/description.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/components\/sections\/layouts\/description.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/components\/sections\/layouts\/markup.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/components\/sections\/layouts\/markup.html",
-		"oF": 0
-		},
 	"\/components\/tables\/description.md": {
 		"cS": 0,
 		"eF": 1,
@@ -1051,28 +1141,10 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/components\/tables\/products\/description.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/components\/tables\/products\/description.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/components\/tables\/products\/markup.html": {
+	"\/components\/tables\/Scan-results\/description.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/components\/tables\/products\/markup.html",
+		"oAP": "\/components\/tables\/Scan-results\/description.html",
 		"oF": 0
 		},
 	"\/components\/tables\/Scan-results\/description.md": {
@@ -1639,6 +1711,54 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud-150x150.png": {
+		"ft": 32768,
+		"iS": 17915,
+		"oA": 0,
+		"oAP": "\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud-180x180.png": {
+		"ft": 32768,
+		"iS": 22901,
+		"oA": 0,
+		"oAP": "\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud-180x180.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud-300x300.png": {
+		"ft": 32768,
+		"iS": 45527,
+		"oA": 0,
+		"oAP": "\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud-300x300.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud-600x600.png": {
+		"ft": 32768,
+		"iS": 112938,
+		"oA": 0,
+		"oAP": "\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud-600x600.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud-768x768.png": {
+		"ft": 32768,
+		"iS": 156321,
+		"oA": 0,
+		"oAP": "\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud-768x768.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud.png": {
+		"ft": 32768,
+		"iS": 160708,
+		"oA": 0,
+		"oAP": "\/static-version\/wp-content\/uploads\/2016\/10\/eniro-connect-cloud.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/static-version\/wp-content\/uploads\/2016\/12\/<table class=\"shop_table woo.textClipping": {
 		"ft": 8192,

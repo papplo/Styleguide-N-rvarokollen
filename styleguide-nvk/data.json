@@ -204,11 +204,6 @@
                     "group": "sections",
                     "name": "blocks",
                     "title": "Element blocks"
-                },
-                {
-                    "group": "sections",
-                    "name": "layouts",
-                    "title": "Layouts"
                 }
             ]
         },
@@ -216,11 +211,6 @@
             "name": "tables",
             "title": "Html Tables",
             "components": [
-                {
-                    "group": "tables",
-                    "name": "products",
-                    "title": "Product Table"
-                },
                 {
                     "group": "tables",
                     "name": "Scan-results",
@@ -255,12 +245,6 @@
                     "options": {
                         "sample_dark_background": true
                     }
-                },
-                {
-                    "group": "global",
-                    "name": "helpers",
-                    "title": "Helper elements",
-                    "width": "half"
                 }
             ]
         }
